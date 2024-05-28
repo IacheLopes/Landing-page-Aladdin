@@ -1,0 +1,131 @@
+:root{
+    --cor-secundaria: rgb(10, 229, 229);
+}
+
+.app-login {
+    width: 100%;
+    background-image: linear-gradient(to right, #080808, #000000);
+}
+
+.formulario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.input-box {
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.input-box img {
+    padding-top: 2px;
+    padding-left: 14px;
+    width: 20px;
+    height: 20%;
+}
+
+.background-style {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(42, 39, 39);
+    border-radius: 5px;
+}
+
+.input-box input {
+    padding-left: 3%;
+    border: none;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(42, 39, 39);
+}
+
+.formulario h3 {
+    padding-top: 31%;
+}
+
+.text-width {
+    max-width: 300px;
+}
+
+.termos {
+    width: 346px;
+    height: auto;
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+}
+
+.input-box input:focus-visible {
+    outline: none;
+}
+
+.confirm-button {
+    padding-top: 2%;
+}
+
+.confirm-button button {
+    background-color: var(--cor-secundaria);
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.confirm-button a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.confirm-button button:hover{
+    background-color: rgb(55, 232, 232);
+}
+
+.termos {
+    padding-top: 2%;
+}
+
+.termos input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 17px;
+    height: 17px;
+    background-color: transparent;
+    border: 2px solid var(--cor-secundaria);
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.termos input[type="checkbox"]:checked {
+    background-color: transparent;
+    border-color: var(--cor-secundaria);
+}
+
+.termos input[type="checkbox"]:checked::after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    width: 3px;
+    height: 9px;
+    border: solid var(--cor-secundaria);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.checkbox{
+    padding-right: 5px;
+}
+

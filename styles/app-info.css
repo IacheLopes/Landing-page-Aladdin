@@ -1,0 +1,82 @@
+:root{
+    --cor-secundaria: rgb(10, 229, 229);
+}
+
+.app-info {
+    padding-top: 5%;
+    grid-column: 1;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--cor-secundaria);
+    padding-bottom: 18%;
+}
+
+.app-info #head {
+    font-weight: bold;
+    color: white;
+    font-size: 400%;
+    white-space: normal;
+}
+
+#destaque {
+    color: var(--cor-secundaria);
+}
+
+.texto-inferior{
+    margin-top: 6%;
+    margin-bottom: 6%;
+
+    word-spacing: 5px;
+    line-height: 190%;
+    font-size: 127%;
+    color: white;
+}
+
+.info {
+    display: grid;
+    grid-template-columns:  35% 35%;
+    grid-template-rows: 1fr;
+    color: white;
+}
+
+.info img {
+    width: 52.31px;
+    
+}
+
+.background-icon{
+    height: 73.6px;
+    width: 73.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(42, 39, 39);;
+    border-radius: 50%;
+}
+
+.diploma{
+    padding-left: 10px;
+}
+
+.info div {
+    display: flex;
+    align-items: center;
+    gap: 7%;
+    font-size: 95%;
+}
+
+.end{
+    display: flex;
+    align-items: center;
+    margin-top: 17%;
+    color: white;
+
+    font-weight: bold;
+}
+
+.end img{
+    width: 10%;
+}
