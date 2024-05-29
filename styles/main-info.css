@@ -71,9 +71,27 @@
     border-radius: 5px;
     border: 1px solid rgb(51, 50, 50);
     background-image: linear-gradient(to bottom,  #141414, #000000);
+    flex-direction: column;
+    color: dimgray;
 }
 
 .footer{
     height: 10px;
     width: auto;
+}
+
+.imagens-bottom .background-imgs .img-edit{
+    width: auto;
+    height: 110px;
+}
+
+.direction{
+    padding-top: 2px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bold{
+    font-weight: bold;
+    padding-right: 5px;
 }
