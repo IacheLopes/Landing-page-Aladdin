@@ -13,20 +13,25 @@
     font-size: 400%;
     padding-top: 10%;
     color: white;
-    width: 550px;
+    width: 700px;
     height: auto;
     font-weight: bold;
 }
 
 .text-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     font-size: 127%;
     padding-top: 2%;
+
     color: white;
-    width: 550px;
+    width: 600px;
     height: auto;
 }
 
 .destaque{
+    padding-left: 17px;
     color: var(--cor-secundaria);
 }
 
@@ -94,4 +99,10 @@
 .bold{
     font-weight: bold;
     padding-right: 5px;
+}
+
+.alinhamento-central{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
